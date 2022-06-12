@@ -1,0 +1,122 @@
+@media (max-width: 1400px) {
+  .cont-icon {
+    left: 100px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .box-text {
+    font-size: 16px !important;
+  }
+  .cont-icon {
+    left: 75px !important;
+  }
+  .icon-style {
+    font-size: 25px !important;
+  }
+}
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .nav-ul {
+    display: none !important;
+  }
+  .mobile-header {
+    height: 275px !important;
+    align-items: unset !important;
+    padding-top: 20px;
+  }
+
+  .mobile-header-div {
+    align-items: unset !important;
+  }
+  .mobile-nav-ul {
+    display: block !important;
+    margin-top: -10px !important;
+    margin-right: 40px !important;
+  }
+  .mobile-nav-div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .mobile-nav-icon {
+    display: block !important;
+    margin-bottom: 20px !important;
+  }
+  .responsive-changeMode {
+    display: flex !important;
+  }
+  .normal-changeMode {
+    display: none;
+  }
+
+  /*---- About -----*/
+  .triangle:before {
+    border-top: 15px solid transparent !important;
+    border-left: 15px solid transparent !important;
+    border-bottom: 15px solid var(--text-color) !important;
+    border-right: 15px solid transparent !important;
+
+    left: 323px !important;
+    top: -9% !important;
+  }
+  /*---- Skills ------*/
+  .progress-bar span.html {
+    left: 79% !important;
+    top: 72px !important;
+  }
+  .progress-bar span.css {
+    left: 74% !important;
+    top: 123px !important;
+  }
+  .progress-bar span.js {
+    left: 65% !important;
+    top: 174px !important;
+  }
+  .progress-bar span.jq {
+    left: 65% !important;
+    top: 226px !important;
+  }
+  .progress-bar span.csharp {
+    left: 70% !important;
+    top: 72px !important;
+  }
+  .progress-bar span.mysql {
+    left: 65% !important;
+    top: 123px !important;
+  }
+  .progress-bar span.php {
+    left: 29% !important;
+    top: 174px !important;
+  }
+  .progress-bar span.sf {
+    left: 38% !important;
+    top: 72px !important;
+  }
+}
+@media (max-width: 576px) {
+  .nav-header span {
+    font-size: 25px !important;
+  }
+  .mobile-nav-icon {
+    font-size: 20px !important;
+    margin-right: 5px;
+    margin-bottom: 26px !important;
+  }
+  .swiper {
+    width: 400px !important;
+    height: 345px;
+  }
+}
+@media (max-width: 375px) {
+  .mobile-header {
+    background-color: #00000090;
+  }
+}
+@media (max-width: 320px) {
+  .cont-icon {
+    left: 110px !important;
+  }
+}
